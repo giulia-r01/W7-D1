@@ -65,7 +65,7 @@ form.addEventListener("submit", function (e) {
     speciesInput.value,
     breedInput.value
   )
-  console.log("Nuovo utente registrato: ", user)
+  console.log("New registered user: ", user)
 
   const listElement = document.createElement("li")
   listElement.textContent = `PET NAME: ${user.petName} -- SPECIES: ${user.species} -- BREED: ${user.breed} -- OWNER: ${user.ownerName}`
