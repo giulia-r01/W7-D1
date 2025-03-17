@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>W7 D1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center pb-5">W7 D1 - PetForm</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <form id="pet-form">
+            <div class="pb-2">
+              <label for="petName" class="form-label">Pet Name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="petName"
+                placeholder="type your pet's name"
+              />
+            </div>
+
+            <div class="pb-2">
+              <label class="form-label" for="ownerName">Owner Name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="ownerName"
+                placeholder="type your name"
+              />
+            </div>
+            <div class="pb-2">
+              <label class="form-label" for="species">Your pet's species</label>
+              <input
+                class="form-control"
+                type="text"
+                id="species"
+                placeholder="type your pet's species"
+              />
+            </div>
+            <div class="pb-2">
+              <label class="form-label" for="breed">Your pet's breed</label>
+              <input
+                class="form-control"
+                type="text"
+                id="breed"
+                placeholder="type your pet's breed"
+              />
+            </div>
+            <div class="text-center">
+              <button class="btn btn-dark px-5">Invia</button>
+            </div>
+          </form>
+          <div>
+            <ul id="listElement" class="list-unstyled pt-4"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
